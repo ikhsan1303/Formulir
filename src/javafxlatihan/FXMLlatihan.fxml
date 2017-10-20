@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="553.0" prefWidth="600.0" style="-fx-background-color: #69F0AE;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxlatihan.FXMLlatihanController">
+   <children>
+      <Label layoutX="194.0" layoutY="81.0" text="Nama" />
+      <Label layoutX="191.0" layoutY="123.0" text="Alamat" />
+      <Label layoutX="194.0" layoutY="167.0" text="Absen" />
+      <Label layoutX="189.0" layoutY="210.0" text="Telepon" />
+      <TextField id="Nama" fx:id="Nama" layoutX="262.0" layoutY="77.0" />
+      <TextField id="Alamat" fx:id="Alamat" layoutX="262.0" layoutY="119.0" />
+      <TextField id="Absen" fx:id="Absen" layoutX="262.0" layoutY="163.0" />
+      <TextField id="Telepon" fx:id="Telepon" layoutX="262.0" layoutY="206.0" />
+      <Button layoutX="262.0" layoutY="252.0" mnemonicParsing="false" onAction="#Hasil" prefHeight="25.0" prefWidth="58.0" style="-fx-background-color: #00E676;" text="Hasil" />
+      <TextArea id="teksarea" fx:id="hasil" layoutX="34.0" layoutY="288.0" prefHeight="200.0" prefWidth="539.0" />
+      <Button layoutX="353.0" layoutY="252.0" mnemonicParsing="false" onAction="#Hapus" prefHeight="25.0" prefWidth="58.0" style="-fx-background-color: #00E676;" text="Hapus" />
+   </children>
+</AnchorPane>
